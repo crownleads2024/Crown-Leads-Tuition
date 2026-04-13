@@ -1,0 +1,72 @@
+/* Responsive */
+@media(max-width:1024px){
+  .hero-title{font-size:2.8rem}
+  .hero .container{gap:2rem}
+  .hero-logo-wrapper{width:400px;height:400px}
+  .hero-logo-img{width:220px;height:220px}
+  .section-title{font-size:2.3rem}
+  .about-grid{gap:2.5rem}
+  .founder-grid{gap:2.5rem}
+  .founder-image-container{width:280px;height:280px}
+  .founder-img{width:260px;height:260px}
+  .services-counters{gap:1.5rem}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:2rem}
+}
+@media(max-width:768px){
+  html{font-size:15px}
+  .nav-menu{position:fixed;top:0;right:-100%;width:80%;max-width:350px;height:100vh;background:var(--primary-dark);flex-direction:column;justify-content:center;gap:.5rem;padding:2rem;transition:right .4s cubic-bezier(.4,0,.2,1);box-shadow:-10px 0 30px rgba(0,0,0,.3)}
+  .nav-menu.active{right:0}
+  .nav-menu .nav-link{color:rgba(255,255,255,.8);font-size:1.1rem;padding:1rem 1.5rem;width:100%;text-align:left;border-radius:var(--radius-sm)}
+  .nav-menu .nav-link:hover{background:rgba(255,255,255,.08);color:#fff}
+  .nav-toggle{display:flex}
+  .hero{padding:7rem 0 4rem}
+  .hero .container{grid-template-columns:1fr;text-align:center}
+  .hero-content{order:2}
+  .hero-visual{order:1}
+  .hero-title{font-size:2.4rem}
+  .hero-subtitle{margin-left:auto;margin-right:auto}
+  .hero-stats{justify-content:center}
+  .hero-stars{justify-content:center}
+  .hero-buttons{justify-content:center}
+  .hero-logo-wrapper{width:340px;height:340px}
+  .hero-logo-img{width:200px;height:200px}
+  .about-grid{grid-template-columns:1fr;gap:3rem}
+  .about-experience-badge{bottom:-15px;right:10px}
+  .founder-grid{grid-template-columns:1fr;gap:2.5rem}
+  .founder-image-wrapper{order:1}
+  .founder-content{order:2}
+  .founder-image-container{width:260px;height:260px}
+  .founder-img{width:240px;height:240px}
+  .founder-highlights{grid-template-columns:repeat(3,1fr);gap:.8rem}
+  .services-counters{grid-template-columns:1fr;gap:1.5rem}
+  .subjects-grid{grid-template-columns:1fr;gap:1.5rem}
+  .contact-grid{grid-template-columns:1fr;gap:3rem}
+  .footer-grid{grid-template-columns:1fr;gap:2rem;text-align:center}
+  .footer-brand p{max-width:100%}
+  .footer-social{justify-content:center}
+  .footer-bottom{justify-content:center;text-align:center}
+  .footer-bottom-links{justify-content:center}
+  .section{padding:4rem 0}
+  .section-header{margin-bottom:3rem}
+}
+@media(max-width:480px){
+  html{font-size:14px}
+  .navbar .container{padding:0 1.2rem}
+  .nav-brand-text{font-size:1.1rem}
+  .hero-title{font-size:2rem}
+  .hero-stats{gap:1.2rem}
+  .hero-stat-number{font-size:1.5rem}
+  .hero-buttons{flex-direction:column;align-items:center}
+  .btn{width:100%;justify-content:center}
+  .hero-logo-wrapper{width:280px;height:280px}
+  .hero-logo-img{width:160px;height:160px}
+  .section-title{font-size:1.8rem}
+  .about-features{grid-template-columns:1fr}
+  .founder-image-container{width:220px;height:220px}
+  .founder-img{width:200px;height:200px}
+  .founder-highlights{grid-template-columns:1fr}
+  .founder-content h3{font-size:1.6rem}
+  .contact-form-wrapper{padding:1.5rem}
+  .counter-number{font-size:2.5rem}
+  .section .container{padding:0 1.2rem}
+}

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admission | Crown Leads Tuition Centre</title>
+  <meta name="description" content="Apply for admission at Crown Leads Tuition Centre. Enroll now for expert coaching in Physics, Maths & Chemistry.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/contact-footer.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/admission.css">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div class="loader-wrapper" id="loader">
+    <div class="loader">
+      <div class="loader-crown">👑</div>
+      <div class="loader-text">Crown Leads Tuition Centre</div>
+      <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="container">
+      <a href="index.html" class="nav-brand">
+        <span class="nav-brand-icon">👑</span>
+        <span class="nav-brand-text">
+          <span class="text-white-nav">Crown Leads </span> <span class="text-blue">Tuition Centre</span>
+        </span>
+      </a>
+      <div class="nav-menu" id="navMenu">
+        <a href="index.html#home" class="nav-link">Home</a>
+        <a href="index.html#about" class="nav-link">About Us</a>
+        <a href="index.html#services" class="nav-link">Services</a>
+        <a href="admission.html" class="nav-link active">Admission</a>
+        <a href="index.html#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="nav-toggle" id="navToggle">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- Admission Hero -->
+  <section class="admission-hero">
+    <div class="particles" id="particles"></div>
+    <div class="container">
+      <div class="admission-hero-content reveal">
+        <span class="section-badge" style="background:rgba(255,255,255,.1);color:var(--sky-blue);border:1px solid rgba(255,255,255,.15)">✦ Admissions Open</span>
+        <h1 class="hero-title">
+          <span class="text-white">Join</span> <span class="text-gradient">Crown Leads</span>
+        </h1>
+        <p class="hero-subtitle" style="margin:0 auto">Begin your journey toward academic excellence. Apply for admission and unlock your full potential with expert guidance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Admission Info -->
+  <section class="section" id="admissionInfo">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-badge">✦ Admission Details</span>
+        <h2 class="section-title">How to <span class="highlight">Apply</span></h2>
+        <p class="section-subtitle">Follow these simple steps to secure your admission at Crown Leads Tuition Centre.</p>
+      </div>
+
+      <div class="admission-steps">
+        <div class="step-card reveal">
+          <div class="step-number">01</div>
+          <div class="step-icon">📋</div>
+          <h3>Fill the Form</h3>
+          <p>Complete the admission form below with accurate personal and academic details.</p>
+        </div>
+        <div class="step-connector reveal">
+          <div class="connector-line"></div>
+          <div class="connector-dot"></div>
+        </div>
+        <div class="step-card reveal">
+          <div class="step-number">02</div>
+          <div class="step-icon">📞</div>
+          <h3>Get a Call</h3>
+          <p>Our team will contact you within 24 hours to discuss your requirements and schedule.</p>
+        </div>
+        <div class="step-connector reveal">
+          <div class="connector-line"></div>
+          <div class="connector-dot"></div>
+        </div>
+        <div class="step-card reveal">
+          <div class="step-number">03</div>
+          <div class="step-icon">🎉</div>
+          <h3>Start Learning</h3>
+          <p>Confirm your enrollment, pay fees and begin your classes immediately.</p>
+        </div>
+      </div>
+
+      <!-- Eligibility -->
+      <div class="admission-info-grid">
+        <div class="info-card reveal-left">
+          <h3>📌 Eligibility & Requirements</h3>
+          <ul class="info-list">
+            <li>✓ Students from Class 3 to Class 12</li>
+            <li>✓ Students preparing for JEE / NEET entrance exams</li>
+            <li>✓ Previous academic records (optional)</li>
+            <li>✓ Students of CBSE | STATE BOARD | MATRIC</li>
+            <li>✓ Passport-size photographs (2 copies)</li>
+          </ul>
+        </div>
+        <div class="info-card reveal-right">
+          <h3>📅 Important Information</h3>
+          <ul class="info-list">
+            <li>✓ New batches start every month</li>
+            <li>✓ Limited seats per batch (max 15 students)</li>
+            <li>✓ Flexible timing: Morning & Evening batches</li>
+            <li>✓ Weekend special doubt clearing sessions</li>
+            <li>✓ Free demo class available before admission</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Admission Form -->
+  <section class="section contact" id="admissionForm">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-badge">✦ Apply Now</span>
+        <h2 class="section-title">Admission <span class="highlight">Form</span></h2>
+        <p class="section-subtitle">Fill in your details below and take the first step toward academic excellence.</p>
+      </div>
+      <div class="admission-form-container reveal">
+        <div class="contact-form-wrapper" style="max-width:700px;margin:0 auto">
+          <form id="admissionFormEl">
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem">
+              <div class="form-group">
+                <label class="form-label" for="adm-fname">First Name</label>
+                <input type="text" class="form-input" id="adm-fname" name="first_name" placeholder="Enter first name" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="adm-lname">Last Name</label>
+                <input type="text" class="form-input" id="adm-lname" name="last_name" placeholder="Enter last name" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="adm-email">Email Address</label>
+              <input type="email" class="form-input" id="adm-email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="adm-mobile">Mobile Number</label>
+              <input type="tel" class="form-input" id="adm-mobile" name="mobile" placeholder="Enter mobile number" required>
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.5rem">
+              <div class="form-group">
+                <label class="form-label" for="adm-class">Class / Grade</label>
+                <select class="form-select" id="adm-class" name="class" required>
+                  <option value="" disabled selected>Select class</option>
+                  <option value="Class 8">Class 8</option>
+                  <option value="Class 9">Class 9</option>
+                  <option value="Class 10">Class 10</option>
+                  <option value="Class 11">Class 11</option>
+                  <option value="Class 12">Class 12</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="adm-subject">Subject Interest</label>
+                <select class="form-select" id="adm-subject" name="subject" required>
+                  <option value="" disabled selected>Select subject</option>
+                  <option value="Physics">Physics</option>
+                  <option value="Mathematics">Mathematics</option>
+                  <option value="Chemistry">Chemistry</option>
+                  <option value="All Subjects">All Subjects</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="adm-batch">Preferred Batch</label>
+              <select class="form-select" id="adm-batch" name="batch" required>
+                <option value="" disabled selected>Select batch timing</option>
+                <option value="Morning (8AM - 10AM)">Morning (8 AM - 10 AM)</option>
+                <option value="Afternoon (2PM - 4PM)">Afternoon (2 PM - 4 PM)</option>
+                <option value="Evening (5PM - 7PM)">Evening (5 PM - 7 PM)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="adm-message">Additional Message (Optional)</label>
+              <textarea class="form-input" id="adm-message" name="message" placeholder="Any additional information..." rows="3" style="resize:vertical"></textarea>
+            </div>
+            <button type="submit" class="btn-submit" id="admSubmitBtn">
+              <span class="btn-text">Submit Application 🎓</span>
+              <span class="spinner"></span>
+            </button>
+          </form>
+          <div class="success-message" id="admSuccessMessage">
+            <div class="success-icon">🎉</div>
+            <h3>Application Submitted!</h3>
+            <p>We've received your admission application. Our team will contact you within 24 hours.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-brand">
+            <span class="nav-brand-icon">👑</span>
+            <span class="nav-brand-text">
+              <span class="text-blue">Crown Leads</span> <span style="color:rgba(255,255,255,.9)">Tuition Centre</span>
+            </span>
+          </div>
+          <p>Empowering students to achieve academic excellence through dedicated teaching and personalized mentoring.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/the_crown_leads_2024" target="_blank" class="social-icon" aria-label="Instagram">📸</a>
+            <a href="https://wa.me/9940263117" target="_blank" class="social-icon" aria-label="WhatsApp">💬</a>
+            <a href="crownleads2024@email.com" class="social-icon" aria-label="Email">✉️</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html#home">→ Home</a></li>
+            <li><a href="index.html#about">→ About Us</a></li>
+            <li><a href="index.html#services">→ Services</a></li>
+            <li><a href="admission.html">→ Admission</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">Subjects</h4>
+          <ul class="footer-links">
+            <li><a href="index.html#services">→ Physics</a></li>
+            <li><a href="index.html#services">→ Mathematics</a></li>
+            <li><a href="index.html#services">→ Chemistry</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">Contact Info</h4>
+          <div class="footer-contact-item">
+            <span class="footer-contact-icon">📧</span>
+            <span class="footer-contact-text">crownleads2024@email.com</span>
+          </div>
+          <div class="footer-contact-item">
+            <span class="footer-contact-icon">📍</span>
+            <span class="footer-contact-text" >Crown Leads Tuition Centre,<span ><br>Pillaiyar koil, 2nd St, Nesapakkam, Chennai, Tamil Nadu </span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2026 Crown Leads Tuition Centre. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="js/main.js"></script>
+  <script src="js/admission.js"></script>
+</body>
+</html>
