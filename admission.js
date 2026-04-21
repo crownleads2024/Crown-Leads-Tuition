@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
       // Build template params explicitly to match your EmailJS template variables
       var templateParams = {
-        first_name: document.getElementById('adm-fname').value,
-        last_name: document.getElementById('adm-lname').value,
+        name: document.getElementById('adm-fname').value,
+        parents_name: document.getElementById('adm-lname').value,
         email: document.getElementById('adm-email').value,
         mobile: document.getElementById('adm-mobile').value,
         class: document.getElementById('adm-class').value,
