@@ -18,7 +18,7 @@
   <!-- Loading Screen -->
   <div class="loader-wrapper" id="loader">
     <div class="loader">
-      <div class="loader-crown">👑</div>
+      <div class="loader-crown"><img src="logo-2.png" alt="Crown Leads Logo" class="loader-logo-img"></div>
       <div class="loader-text">Crown Leads Tuition Centre</div>
       <div class="loader-bar"><div class="loader-bar-fill"></div></div>
     </div>
@@ -28,7 +28,7 @@
   <nav class="navbar" id="navbar">
     <div class="container">
       <a href="#home" class="nav-brand">
-        <span class="nav-brand-icon">👑</span>
+        <span class="nav-brand-icon"><img src="logo-2.png" alt="Crown Leads Logo" class="brand-logo-img"></span>
         <span class="nav-brand-text">
           <span class="text-white-nav">Crown Leads </span> <span class="text-blue">Tuition Centre</span>
         </span>
@@ -163,12 +163,13 @@
           </div>
           <div class="founder-name-badge">
             <div class="founder-name-title">Founder & CEO</div>
+            <div class="founder-name-title">Mercyvivek B.Com</div>
             <div class="founder-name">Crown Leads Tuition Centre</div>
           </div>
         </div>
         <div class="founder-content reveal-right">
           <h3>A Decade of <span class="highlight">Dedication</span> to Education</h3>
-          <p>With over <strong>10 years of hands-on teaching experience</strong>, our founder has nurtured hundreds of students across Physics, Mathematics, and Chemistry. His deep understanding of board exam patterns and competitive entrance requirements has helped students consistently achieve top results.</p>
+          <p>With over <strong>10 years of hands-on teaching experience</strong>, our founder has nurtured hundreds of students across Physics, Mathematics, Chemistry, Commerce, Social Science, Economics, Accountancy. His deep understanding of board exam patterns and competitive entrance requirements has helped students consistently achieve top results.</p>
           <p>Driven by the belief that every student has untapped potential, he established Crown Leads Tuition Centre to provide a learning environment where academic excellence meets personalized mentorship. His teaching philosophy combines conceptual clarity with real-world application, making even the most complex topics accessible and engaging.</p>
           <div class="founder-highlights">
             <div class="founder-highlight-card">
@@ -244,6 +245,61 @@
           <h4 class="subject-name">Chemistry</h4>
           <p class="subject-desc">Explore organic, inorganic and physical chemistry with engaging practical examples and clear explanations.</p>
         </div>
+        <div class="subject-card reveal">
+          <div class="subject-icon">💰</div>
+          <h4 class="subject-name">Business Mathematics</h4>
+          <p class="subject-desc">Master financial math, statistics, and quantitative methods essential for commerce and business studies.</p>
+        </div>
+        <div class="subject-card reveal">
+          <div class="subject-icon">🏪</div>
+          <h4 class="subject-name">Commerce</h4>
+          <p class="subject-desc">Gain comprehensive knowledge of trade, business operations, and commercial practices with real-world insights.</p>
+        </div>
+        <div class="subject-card reveal">
+          <div class="subject-icon">💻</div>
+          <h4 class="subject-name">Computer Science</h4>
+          <p class="subject-desc">Learn programming, algorithms, and computational thinking with practical coding exercises and projects.</p>
+        </div>
+        <div class="subject-card reveal">
+          <div class="subject-icon">🧬</div>
+          <h4 class="subject-name">Bio-Mathematics</h4>
+          <p class="subject-desc">Bridge biology and mathematics with quantitative analysis techniques applied to biological systems.</p>
+        </div>
+        <div class="subject-card reveal">
+          <div class="subject-icon">🔬</div>
+          <h4 class="subject-name">Science</h4>
+          <p class="subject-desc">Build a strong scientific foundation with integrated learning across all core science disciplines.</p>
+        </div>
+        <div class="subject-card reveal">
+          <div class="subject-icon">🌿</div>
+          <h4 class="subject-name">Biology</h4>
+          <p class="subject-desc">Discover the wonders of life sciences from cell biology to ecology with detailed diagrams and explanations.</p>
+        </div>
+        <div class="subject-card reveal">
+          <div class="subject-icon">🌍</div>
+          <h4 class="subject-name">Social Science</h4>
+          <p class="subject-desc">Understand history, geography, civics, and economics with engaging discussions and analytical thinking.</p>
+        </div>
+        <div class="subject-card reveal">
+          <div class="subject-icon">📊</div>
+          <h4 class="subject-name">Accountancy</h4>
+          <p class="subject-desc">Master financial accounting, bookkeeping, and balance sheets with step-by-step problem solving techniques.</p>
+        </div>
+        <div class="subject-card reveal">
+          <div class="subject-icon">📈</div>
+          <h4 class="subject-name">Economics</h4>
+          <p class="subject-desc">Explore micro and macroeconomics with real-world case studies and clear conceptual understanding.</p>
+        </div>
+        <div class="subject-card reveal">
+          <div class="subject-icon">க</div>
+          <h4 class="subject-name">Tamil</h4>
+          <p class="subject-desc">Strengthen Tamil language skills with grammar, literature, and composition for board exam excellence.</p>
+        </div>
+        <div class="subject-card reveal">
+          <div class="subject-icon">AZ</div>
+          <h4 class="subject-name">English</h4>
+          <p class="subject-desc">Improve English proficiency in reading, writing, grammar, and literature with structured learning methods.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -264,7 +320,7 @@
             <div class="contact-detail-icon">📧</div>
             <div class="contact-detail-text">
               <h4>Email Us</h4>
-              <p>crownleads2024@email.com</p>
+              <p>crownleads2024@gmail.com</p>
             </div>
           </div>
           <div class="contact-detail">
@@ -289,6 +345,10 @@
               <input type="text" class="form-input" id="name" name="name" placeholder="Enter your full name" required>
             </div>
             <div class="form-group">
+              <label class="form-label" for="name">Parents Name </label>
+              <input type="text" class="form-input" id="name" name="parents_name" placeholder="Enter Parents name" required>
+            </div>
+            <div class="form-group">
               <label class="form-label" for="email">Email Address</label>
               <input type="email" class="form-input" id="email" name="email" placeholder="Enter your email" required>
             </div>
@@ -303,6 +363,17 @@
                 <option value="Physics">Physics</option>
                 <option value="Mathematics">Mathematics</option>
                 <option value="Chemistry">Chemistry</option>
+                <option value="Business Mathematics">Business Mathematics</option>
+                <option value="Commerce">Commerce</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Bio-Mathematics">Bio-Mathematics</option>
+                <option value="Science">Science</option>
+                <option value="Biology">Biology</option>
+                <option value="Social Science">Social Science</option>
+                <option value="Accountancy">Accountancy</option>
+                <option value="Economics">Economics</option>
+                <option value="Tamil">Tamil</option>
+                <option value="English">English</option>
                 <option value="All Subjects">All Subjects</option>
               </select>
             </div>
@@ -327,7 +398,7 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <div class="nav-brand">
-            <span class="nav-brand-icon">👑</span>
+            <span class="nav-brand-icon"><img src="logo.png" alt="Crown Leads Logo" class="brand-logo-img"></span>
             <span class="nav-brand-text">
               <span class="text-blue">Crown</span> <span style="color:rgba(255,255,255,.9)">Leads</span>
             </span>
@@ -336,7 +407,7 @@
           <div class="footer-social">
             <a href="https://www.instagram.com/the_crown_leads_2024" target="_blank" class="social-icon" aria-label="Instagram">📸</a>
             <a href="https://wa.me/96001 21067" target="_blank" class="social-icon" aria-label="WhatsApp">💬</a>
-            <a href="crownleads2024@email.com" class="social-icon" aria-label="Email">✉️</a>
+            <a href="crownleads2024@gmail.com" class="social-icon" aria-label="Email">✉️</a>
           </div>
         </div>
         <div>
@@ -355,6 +426,12 @@
             <li><a href="#services">→ Physics</a></li>
             <li><a href="#services">→ Mathematics</a></li>
             <li><a href="#services">→ Chemistry</a></li>
+            <li><a href="#services">→ Commerce</a></li>
+            <li><a href="#services">→ Computer Science</a></li>
+            <li><a href="#services">→ Biology</a></li>
+            <li><a href="#services">→ Accountancy</a></li>
+            <li><a href="#services">→ Economics</a></li>
+            <li><a href="#services">→ Tamil & English</a></li>
           </ul>
         </div>
         <div>
